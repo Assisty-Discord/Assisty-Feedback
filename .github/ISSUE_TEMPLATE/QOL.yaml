@@ -1,0 +1,35 @@
+name: QOL / Improvements
+description: Tell us what we can improve!
+title: "QOL | "
+labels: ["Quality-Of-Life"]
+projects: ["Assisty-Feedback/main"]
+body:
+  - type: input
+    id: username
+    attributes:
+      label: Discord Username
+      description: Used for logging purposes aswell as aditional information.
+      placeholder: ex. Kaosdiy
+    validations:
+      required: true
+  - type: input
+    id: what-qol
+    attributes:
+      label: What do you think can have quality-of-life improvements?
+    validations:
+      required: true
+  - type: textarea
+    id: why-qol
+    attributes:
+      label: How do you think things can be improved?
+      description: We appreciate any concepts you have or in-detailed descriptions of the changes we can make for improvement.
+    validations:
+      required: true
+       - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Before Submitting
+      description: Please check the boxes below before submitting.
+      options:
+        - label: I understand that my idea may not be added.
+          required: true
