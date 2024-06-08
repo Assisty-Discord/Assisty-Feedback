@@ -1,6 +1,6 @@
 name: Issue Report
 description: Create an issue report for Assisty.
-title: "[BUG]: "
+title: "BUG | "
 labels: ["bug"]
 projects: ["Assisty-Feedback/main"]
 body:
