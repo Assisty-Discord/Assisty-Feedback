@@ -25,11 +25,4 @@ body:
       description: We appreciate any concepts you have or in-detailed descriptions of the changes we can make for improvement.
     validations:
       required: true
-       - type: checkboxes
-    id: confirmation
-    attributes:
-      label: Before Submitting
-      description: Please check the boxes below before submitting.
-      options:
-        - label: I understand that my idea may not be added.
-          required: true
+   
