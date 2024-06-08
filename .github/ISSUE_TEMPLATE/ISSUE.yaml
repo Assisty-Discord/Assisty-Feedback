@@ -9,7 +9,7 @@ body:
     attributes:
       label: Discord Username
       description: This will be used if we require any additional information on the issue.
-      placeholder: example: Kaosdiy
+      placeholder: ex. Kaosdiy
     validations:
       required: true
   - type: input
