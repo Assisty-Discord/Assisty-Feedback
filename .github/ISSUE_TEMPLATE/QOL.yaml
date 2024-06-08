@@ -1,7 +1,7 @@
 name: QOL / Improvements
 description: Tell us what we can improve!
 title: "QOL | "
-labels: ["Quality-Of-Life"]
+labels: ["qol"]
 projects: ["Assisty-Feedback/main"]
 body:
   - type: input
